@@ -1,0 +1,55 @@
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com-master/yuvaltaubes.com-master
+$ git init
+Initialized empty Git repository in D:/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com-master/yuvaltaubes.com-master/.git/
+
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com-master/yuvaltaubes.com-master (master)
+$ git clone https://github.com/yuval-taubes/yuvaltaubes.com.git
+Cloning into 'yuvaltaubes.com'...
+
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com-master/yuvaltaubes.com-master (master)
+$ git add .
+warning: LF will be replaced by CRLF in assets/style/base.css.        
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/style/index.css.       
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com-master/yuvaltaubes.com-master (master)
+$ git commit -m"style changes"
+[master (root-commit) 2b7e3e3] style changes
+ 6 files changed, 631 insertions(+)
+ create mode 100644 assets/img/Profile-pic.jpg
+ create mode 100644 assets/img/Profile-pic2.jpg
+ create mode 100644 assets/img/header.jpg
+ create mode 100644 assets/style/base.css
+ create mode 100644 assets/style/index.css
+ create mode 100644 index.html
+
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com-master/yuvaltaubes.com-master (master)
+$ git add .
+warning: LF will be replaced by CRLF in assets/style/index.css.
+The file will have its original line endings in your working directory
+
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com-master/yuvaltaubes.com-master (master)
+$ git commit -m"more media queries"
+[master 98dd28b] more media queries
+ 2 files changed, 11 insertions(+)
+ create mode 100644 log.txt
+
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com-master/yuvaltaubes.com-master (master)
+$ git add .
+warning: LF will be replaced by CRLF in assets/style/index.css.       
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com-master/yuvaltaubes.com-master (master)
+$ git commit -m"final commit"
+[master c540991] final commit
+ 3 files changed, 41 insertions(+), 6 deletions(-)
+
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com-master/yuvaltaubes.com-master (master)
+$ 
+
+
