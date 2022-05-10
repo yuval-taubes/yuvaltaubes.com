@@ -47,19 +47,7 @@ nav ul li a:hover {
   text-decoration: underline;
   text-underline-offset: 1px;
 }
-.contact-me {
-  font-size: 16px;
-  color: #fff;
-  font-weight: 400;
-  text-decoration: none;
-  letter-spacing: 0.2px;
-  text-transform: none;
-  cursor: pointer;
-  background-color: transparent;
-  border: 2px solid #fff;
-  padding: 7px 12px;
-  border-radius: 25px;
-}
+
 .contact-me:hover {
   text-decoration: underline;
 

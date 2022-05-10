@@ -49,7 +49,47 @@ $ git commit -m"final commit"
 [master c540991] final commit
  3 files changed, 41 insertions(+), 6 deletions(-)
 
-YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com-master/yuvaltaubes.com-master (master)
-$ 
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com (master)
+$ git add .
+warning: LF will be replaced by CRLF in assets/style/base.css.        
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/style/index.css.       
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com (master)
+$ git commit -m"new headerbanner"
+[master (root-commit) 3f7ad76] new headerbanner
+ 8 files changed, 707 insertions(+)
+ create mode 100644 assets/img/Profile-pic.jpg 
+ create mode 100644 assets/img/Profile-pic2.jpg
+ create mode 100644 assets/img/header.jpg      
+ create mode 100644 assets/img/header2.jpg     
+ create mode 100644 assets/style/base.css      
+ create mode 100644 assets/style/index.css
+ create mode 100644 index.html
+ create mode 100644 log.txt
+
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com (master)
+$ git remote add origin https://github.com/yuval-taubes/yuvaltaubes.com.git
+
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com (master)
+$ git push -u origin master
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 10.30 MiB | 5.94 MiB/s, done.
+Total 13 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/yuval-taubes/yuvaltaubes.com.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
 
 

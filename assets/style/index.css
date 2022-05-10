@@ -5,6 +5,18 @@ body{
     background-color: #2A2631;
     
 }
+.contact-me {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  text-transform: none;
+  cursor: pointer;
+  background-color:#ff007f;
+  padding: 7px 12px;
+  border-radius: 25px;
+}
 .wrapper {
     height: 100vh;
     width: 100%;
