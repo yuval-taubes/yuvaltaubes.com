@@ -91,5 +91,30 @@ To https://github.com/yuval-taubes/yuvaltaubes.com.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com (master)
+$ git add .
+warning: LF will be replaced by CRLF in assets/style/base.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/style/index.css.
+The file will have its original line endings in your working directory
+
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com (master)
+$ git commit -m"contact me button change"
+[master ee3c59f] contact me button change
+ 4 files changed, 58 insertions(+), 15 deletions(-)
+ create mode 100644 .vscode/settings.json
+
+YFuksman@EC-NSSCH-182184 MINGW64 /d/Mitt/JavaScript-Basics/yuvaltaubes.com/yuvaltaubes.com (master)
+$ git push -u origin master
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 1.26 KiB | 1.26 MiB/s, done.
+Total 9 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/yuval-taubes/yuvaltaubes.com.git
+   3f7ad76..ee3c59f  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 
