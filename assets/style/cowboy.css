@@ -1,0 +1,119 @@
+@import "base.css";
+
+body{
+    /* background-color: #94D2BD; */
+    background-color: #2A2631;
+    
+}
+
+/* HEADER */
+
+
+/* MAIN BODY */
+
+.wrapper {
+    height: 110vh;
+    width: 100%;
+    background-color: #71a0c1;
+  }
+  .w1{
+    background: white url("https://images.unsplash.com/photo-1624125278758-c0572f6ebc55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") center center / cover no-repeat fixed;
+    
+}
+.w2{
+    background: white url("https://images.unsplash.com/photo-1626798010803-9fff456c8ec0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1179&q=80") center center / cover no-repeat fixed;
+
+}
+.w3{
+    background: white url("https://images.unsplash.com/photo-1603640946281-851ccf60c886?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=809&q=80") center center / cover no-repeat fixed;
+
+}
+.w4{
+    /*  */
+    background: white url("https://i.pinimg.com/564x/3e/95/22/3e95229f2a8c5f5bfc900e3a70600357.jpg") center center / cover no-repeat fixed;
+
+}
+  .herobanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 130px);
+    flex-direction: column;
+  }
+  .herobanner h3{
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .overlay {
+    background: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+  }
+
+  .herobanner h1{
+      color: white;
+      font-size: 50px;
+      font-weight: 400;
+  }
+  .herofooter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+  .herolinks{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+  }
+  .herolinks ul{
+    display: flex;
+  }
+  .herolinks ul li{
+  list-style: none;
+  }
+  li + li{
+    margin-left: 25px;
+
+  }
+  .herolinks ul li a{
+    color:  white;
+    font-size: 22px;
+  }
+
+
+/* FOOTER */
+
+.copyright p{
+    color: white;
+  }
+  /* FOOTER */
+  footer{
+    background-color: #121418;
+  }
+  .links{
+  
+  }
+  .links ul{
+  
+  }
+  .links ul li{
+  
+  }
+  .links ul li a{
+    color: white;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+
+
+
