@@ -46,10 +46,27 @@ body{
 
 }
 .w7{
+  background: white url("https://i.ytimg.com/vi/Q0ZEmLosVXE/maxresdefault.jpg") center center / cover no-repeat fixed;
+
+}
+.w6{
+  background: white url("https://images.unsplash.com/photo-1485686531765-ba63b07845a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80") center center / cover no-repeat fixed;
+
+}
+.w8{
+  background: white url("https://img.freepik.com/free-photo/vintage-action-shot-group-cowboys-morning-sun_369024-1148.jpg?w=2000") center center / cover no-repeat fixed;
+
+}
+.w9{
+  background: white url("https://1.bp.blogspot.com/-YgzF341rI5o/Xx2TlprW37I/AAAAAAAAgBM/4_uVJBODJtcp47BQYXK0rXfuiuMvGlvkACLcBGAsYHQ/s1600/Showdown.jpg") center center / cover no-repeat fixed;
+
+}
+.w10{
   background: white url("https://i.pinimg.com/564x/3e/95/22/3e95229f2a8c5f5bfc900e3a70600357.jpg") center center / cover no-repeat fixed;
 
 }
-  .herobanner {
+
+  .herobanner, .herobanner1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,10 +74,17 @@ body{
     flex-direction: column;
     text-align: center;
   }
+  .herobanner1{
+    height: calc(100vh - 130px);
+  }
   .herobanner p{
     color: white;
-    font-weight: 400;
-    font-size: 30px;
+    font-weight: 300;
+    font-size: 25px;
+  }
+  .herobanner1 p{
+    color: white;
+    font-weight: 300;
   }
   .overlay {
     background: rgba(0, 0, 0, 0.4);
@@ -69,10 +93,10 @@ body{
     z-index: 2;
   }
 
-  .herobanner h1{
+  .herobanner h1, .herobanner1 h1{
       color: white;
       font-size: 50px;
-      font-weight: 400;
+      font-weight: 300;
   }
   .herofooter{
     width: 100%;
@@ -129,6 +153,10 @@ body{
     text-align: center;
     align-items: center;
     width: 100%;
+    margin-top: 0px;
+  }
+  footer{
+    margin-top: 0;
   }
   
 
